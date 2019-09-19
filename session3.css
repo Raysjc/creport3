@@ -1,0 +1,218 @@
+body{
+    background: url(img/Rainforest.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 62.5%;
+    margin: 0;
+    padding: 0;
+}
+
+.other{
+    background: url(img/Rainforest.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 62.5%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: white;
+}
+
+.box{
+    background: rgba(0,0,0,0.6);
+    color: white;
+}
+
+.container-content{
+    width: 90%;
+    margin: auto;
+}
+
+.nav{
+    background-image: url(img/rf.gif);
+    background-size: cover;
+    background-position: center;
+    padding: 1%;
+}
+
+.nav a{
+    text-decoration: none;
+    font-size: 1rem;
+    margin: 0;
+    color: black;
+    padding:.5rem;
+}
+
+.nav a:hover{
+    color: green;
+}
+
+#container{
+    margin-top: 12%;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+P{
+    font-size: 1rem;
+}
+
+.location{
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#map{
+    width: 95%;
+    height: 95%;
+    border: 1px solid black;
+    border-radius: 5%;
+}
+
+.banner{
+    color: white;
+    text-align: center;
+    padding: 1%;
+    font-size: 2rem;
+}
+
+#content-header{
+    margin-left: 2%;
+    font-size: 1.6rem;
+}
+
+.container{
+    width:90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.news{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.square{
+    flex-basis: calc(50% - 1rem);
+    padding: 1rem;
+}
+
+.square:hover{
+    transform: scale(1.1);
+
+}
+
+.news-img{
+    width: 24rem;
+    height: 15rem;
+}
+
+.headlineTopic{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    font-size: 1.3rem;
+}
+
+#addInfo{
+    background: yellow;
+    text-align: center;
+    border-radius: 10%;
+}
+
+.button-news{
+    width: 10rem;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.button-news a{
+    text-decoration: none;
+    color: black;
+}
+
+.button-news a:hover{
+    color: green;
+}
+
+.footer-nav{
+    background: black;
+    text-align: center;
+    padding: 5%;
+}
+
+.footer-nav a{
+    text-decoration: none;
+    font-size: 1rem;
+    margin: 0;
+    color: rgb(255, 255, 255);
+    padding: .5rem;
+}
+
+.footer-nav a:hover{
+    color: green;
+}
+.contact-title{
+    padding: 2%;
+    text-transform: uppercase;
+
+}
+
+form{
+    margin-top: 1%;
+    
+}
+
+.form-control{
+    width: 60%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(247, 245, 245);
+    color: #ffffff;
+    margin-bottom: 2%;
+}
+
+input{
+    height: 20%;
+    font-size: 1.2rem;
+}
+
+form .submit{
+    background: #29ff22;
+    border-color: transparent;
+    color: #ffffff;
+    font-size: 1.3rem;
+    font-weight: bold;
+    letter-spacing: 5px;
+    height: 5%;
+    margin-top: 10px;
+}
+
+textarea{
+    font-size: 1.1rem;
+}
+
+form .reset{
+    background: rgb(250, 2, 2);
+    border-color: transparent;
+    color: #ffffff;
+    font-size: 1.3rem;
+    font-weight: bold;
+    letter-spacing: 5px;
+    height: 5%;
+    margin-top: 10px;
+}
+.gender{
+    font-size: 1.2rem;
+}
+
+.radio{
+    font-size: 1rem;
+}
